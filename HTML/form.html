@@ -29,7 +29,7 @@
         </p>
         <p>
             <label for="number">Enter a Number</label>
-            <input id="number" type="number" placeholder="enter a number" name="num" min="1" max="10">
+            <input id="number" type="number" placeholder="enter a number" name="num" min="1" max="10" required>
         </p>
         <button>submit</button>
         <input type="submit" value="Click me!">
@@ -84,6 +84,21 @@
             <textarea name="requests" id="requests" cols="40" rows="10" placeholder="Type something here"></textarea>
         </p>
         <button>Submit</button>
+
+        <h2>Validations Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" required>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+            </p>
+
+            <p>
+                <!-- <input type="email" name="" id="" required> -->
+                <input type="url" name="" id="" required>
+            </p>
+        </form>
     </form>
 </body>
 
