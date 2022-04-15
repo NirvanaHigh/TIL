@@ -53,12 +53,6 @@ input[type="password"] {
     color: greenyellow
 }
 
-
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee
-}
-
 .post a:hover {
     text-decoration: underline;
 }
@@ -69,4 +63,17 @@ button:active {
 
 .post:nth-of-type(2n) {
     background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: olive;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee
 }
