@@ -1,6 +1,0 @@
-# Variable
-let     : 변수 ex) let num = 5;
-const : 상수 ex) let BoilingPointC = 100;
-
-# Naming
-CamelCase을 사용 ex) let currentYear = 2022; 
